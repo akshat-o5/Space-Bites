@@ -1,0 +1,460 @@
+
+*{
+  margin: 0;
+  outline: none;
+  box-sizing:border-box;
+  }
+  body{
+  background-color:  rgb(1, 1, 3);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 110px;
+      border-bottom: 1px solid #ffffff15 ;
+  
+  }
+  .menu ul{
+      display:flex;
+      list-style: none;
+  
+  }
+  .menu li a{
+      color:#f4f2f2;
+      text-decoration: none;
+      margin: 0 24px;
+  }
+  .menu li b{
+      color:#f4f2f2;
+      text-decoration: none;
+      margin: 0 24px;
+  }
+  .banner{
+      text-align: center;
+      padding-top: 65px;
+      color: rgb(218, 123, 60);
+  }
+  .banner-text{
+      max-width: 550px;
+      margin:0 auto;
+  
+  
+      
+  }.banner h1{
+      font-size: 48px;
+      font-weight: 400 ;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .banner ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 0;
+  }
+  .banner ul li{
+      list-style: none;
+      margin: 20px 20px 0;
+      position : relative;
+      font-weight: 300;
+  
+  }
+  .banner ul li:not(:last-child):before{
+      position:absolute;
+      content: '';
+      width : 10px;
+      height: 10px;
+      top:5px;
+      left: -25px;
+      background-color: #000000;
+      border-radius: 50px;
+  }
+  
+  .mars{
+      position: relative;
+      
+  }
+  .mars-img{
+      width: 256px
+  
+  }
+  .circle{
+      width: 756px;
+      height: 756px;
+      display:inline-block;
+      border-radius: 50%;
+      border: 4px solid #fbfbfb;
+      position: absolute;
+      top: 160px;
+      left: 100px;
+      right: -24px;
+      margin: 0 auto;
+      animation: circle 60s linear 0s infinite;
+  }
+  @keyframes circle{
+      to{
+          transform: rotate(360deg) ;
+      }
+  }
+  .icon{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      padding:30px;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      background-color: #000000;
+      transition: all ease 0.5s;
+      /* justify-content: ; */
+      
+  }
+  
+  /* .logo{
+      width: 50px;
+      height: 40px;
+  } */
+  /* .icon:hover{
+      border-color: #3951e8;
+      background-color: #3951e8;
+      box-shadow: 0 4px 94px #384fde;
+  } */
+  .icon:nth-child(1){
+      top: -40px;
+      left: 30%;
+  
+  }
+  .icon:nth-child(2){
+      top: 70px;
+      right: 50px;
+     
+  }
+  .icon:nth-child(3){
+      top: 330px;
+      right: -50px;
+  }
+  
+  .icon:nth-child(4){
+     bottom: 60px;
+     right: 60px;
+    
+  }
+  
+  .icon:nth-child(5){
+     bottom: -40px;
+     right: 41%;
+  
+  }
+  
+  .icon:nth-child(6){
+      bottom: 70px;
+      left:  45px;
+      
+      
+   }
+  
+   .icon:nth-child(7){
+      bottom: 574px;
+      left: 45px;
+      
+   }
+  
+   .icon:nth-child(8){
+      bottom: 328px;
+      left: -55px;
+      
+   }
+  
+   /* .stone{
+      position:absolute;
+      width: 10px;
+      height: 140px;
+      background: linear-gradient(to top, #384284,transparent);
+      top:100px;
+      left: 100px;
+      border-radius: 50px;
+      opacity: 0;
+      animation: stone 7s ease 0s infinite;;
+  
+  
+   }
+   @keyframes stone {
+      from{
+          transform: translate(-500%);
+          opacity: 1;
+      }
+      to{
+          transform: translateY(500%);
+          opacity: .3;
+      }
+   } */
+   /* .stone:nth-child(2){
+      top: 300px;
+      left:400px;
+      animation-delay: .7s;
+      animation-duration: 6s;
+  
+   }
+   .stone:nth-child(3){
+      top: 500px;
+      left: 200px;
+      animation-delay: .5s;
+      animation-duration: 3s;
+  
+  
+   }
+   .stone:nth-child(4){
+      top: 100px;
+      right: 100px;
+     left: inherit;  
+     animation-delay: .2s;
+      animation-duration: 4s;
+  
+   }
+   
+   .stone:nth-child(5){
+      top: 300px;
+      right: 400px;
+     left: inherit;  
+     animation-delay: .8s;
+      animation-duration: 7s;
+  
+   }
+  
+   .stone:nth-child(6){
+      top: 500px;
+      right: 200px;
+     left: inherit; 
+     animation-delay: .7s;
+      animation-duration: 6s;
+   
+   }
+   
+   .stone:nth-child(7){
+      top: 0;
+      
+     left: 45%;
+   }
+  
+   .stone:nth-child(even){
+      background: linear-gradient(to top, #384fde,transparent);
+      box-shadow: 0 4px 94px #384fde;
+   }
+   
+  
+    */
+   nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+    
+    
+    nav .dropdown-menu {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: #000000;
+      padding: 0;
+    }
+    
+    nav .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    
+    nav .dropdown-menu li {
+      display: block;
+    }
+    
+    nav .dropdown-menu li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #8f8888;
+    }
+    nav .dropdown-menu li button {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+      color: #c1b8b8;
+      background-color: #000000;
+      border: 0;
+   cursor: pointer; 
+    }
+    
+    nav .dropdown-menu li:hover a {
+      color: #fffbfb;
+      background-color: #000000;
+    }
+
+
+.contaner{
+  text-align: center;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: -20px;
+  margin-top: 200px;
+}
+
+.contaner .card{
+  border: 4px solid rgb(239, 167, 66);
+  text-align: center;
+  width: 310px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-top: 20px;
+  background: rgb(11, 26, 24);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  /* background: linear-gradient(-70deg, #ff9553 30%, rgba(180, 193, 204, 0) 30%), url('img/solar.jpg.webp'); */
+}
+
+.contaner .card img{
+  width: 310px;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.contaner .card h2{
+  text-align: center;
+  margin: 8px 0;
+}
+
+.contaner .card p{
+  text-align: center;
+  line-height: 23px;
+  margin: 0 10px;
+}
+
+
+
+.contaner .card h1{
+  text-align: center;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contaner{
+  text-align: center;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: -20px;
+  margin-top: 200px;
+
+}
+
+.contaner .card{
+  text-align: center;
+  width: 310px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-top: 20px;
+  background: url('../stylesheets/images/3.jpg');
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+  /* background: linear-gradient(-70deg, #ff9553 30%, rgba(246, 242, 242, 0.948) 30%), url('planets.jpg'); */
+}
+
+/* .contaner .card img{
+  width: 310px;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+} 
+
+.contaner .card h2{
+  text-align: center;
+  margin: 8px 0;
+} 
+
+.contaner .card p{
+  text-align: center;
+  line-height: 23px;
+  margin: 0 10px;
+  
+} 
+
+
+.contaner .card h1{
+  text-align: center;
+  color: #f4f2f2;
+}
+.contaner .card h3{
+  text-align: center;
+  color: #f4f2f2;
+}
+.contaner .card h4{
+  text-align: center;
+  color: #f4f2f2;
+  align-self: flex-end;
+  position: sticky;
+  bottom: 1rem;
+} */
+
+
+.contaner .card h1{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #f4f2f2;
+  
+  
+}
+
+th{
+  color: #f1e6e6;
+text-align: center;
+  
+}
+table, th {
+  /* border:1px solid black; */
+  padding: 20px;
+}
+
+h5{
+  border-top: 1px solid rgb(245, 244, 244);
+  padding: 20px 0; 
+  margin-left: auto;
+  color: #f6f0f0;
+  position: absolute;
+bottom: 10;
+right: 10;
+width: 300px;
+
+}
+
+
